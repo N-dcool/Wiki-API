@@ -32,7 +32,7 @@ const postDocumentExample = {
 
 <h4>Individual Article</h4>
 
-- Endpoint: `https://wiki-restful-api.herokuapp.com/articles/{postTitle}`
+- Endpoint: <a href="https://wiki-restful-api.herokuapp.com/articles">`https://wiki-restful-api.herokuapp.com/articles/{postTitle}`</a>
 - Methods: GET, PUT, PATCH, DELETE
 
 <hr>
