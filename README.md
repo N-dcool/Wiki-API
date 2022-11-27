@@ -27,12 +27,12 @@ const postDocumentExample = {
 
 <h4>All Articles</h4>
 
-- Endpoint: `https://wiki-restapi/# remaining soon will publish `
+- Endpoint: `https://wiki-restful-api.herokuapp.com/articles`
 - Methods: GET, POST, DELETE
 
 <h4>Individual Article</h4>
 
-- Endpoint: `https://wiki-restapi/ # {postTitle}`
+- Endpoint: `https://wiki-restful-api.herokuapp.com/articles/{postTitle}`
 - Methods: GET, PUT, PATCH, DELETE
 
 <hr>
