@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
 const ejs = require('ejs');
@@ -12,7 +13,9 @@ app.use(express.static('public'));
 
 // main code  👇 
 
-mongoose.connect("mongodb://localhost:27017/wikiDB");
+const { USERNAME, PASSWORD } = process.env;
+
+mongoose.connect("mongodb+srv://"+ USERNAME +":"+ PASSWORD +"@wikiapi.iabnp7s.mongodb.net/?retryWrites=true&w=majority/WikiAPI");
 
 const articleSchema = new mongoose.Schema({
     title : String,
